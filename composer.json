@@ -1,0 +1,7 @@
+{
+    "require": {
+        "nategood/httpful": "*",
+        "rmasters/swapi": "~0.2",
+        "bjeavons/zxcvbn-php": "^0.3"
+    }
+}
