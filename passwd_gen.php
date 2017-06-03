@@ -24,7 +24,7 @@ $myAPIKey = $passwds['wordnik'];
 require_once('./thirdplibs/wordnik-php/Wordnik.php');
 $wordnik = Wordnik::instance($myAPIKey);
 
-$definitions = $wordnik->getDefinitions('cat');
+//$definitions = $wordnik->getDefinitions('cat');
 //var_dump($definitions);
 $randomWordObj = $wordnik->getRandomWord();
 
